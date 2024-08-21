@@ -10,9 +10,9 @@ const List = [
 const Relatives = () => {
   return (
     <div>
-      <ol key="RelativeList">
+      <ol key="relativeList">
         {List.map((listing,index) =>(
-        <li key={`RelativeListItem${index+1}`}>
+        <li key={`relativeListItem${index+1}`}>
           {listing}
         </li>
         ))}
